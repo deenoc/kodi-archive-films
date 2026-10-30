@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.archivefilms"
+       name="Archive Films"
+       version="1.0.0"
+       provider-name="Dinu Ghit">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Browse and stream public-domain films from the Internet Archive</summary>
+        <description lang="en_GB">Browse thousands of free, public-domain feature films from the Internet Archive (archive.org) with your remote: popular, recently added, top rated, genres, decades, curated collections and search. Plays the best available MP4 and loads subtitles when the film has them.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <source>https://archive.org/details/feature_films</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

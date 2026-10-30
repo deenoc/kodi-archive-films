@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="General">
+        <setting id="rows" type="slider" label="Films per page" default="40" range="10,10,100" option="int"/>
+    </category>
+</settings>
